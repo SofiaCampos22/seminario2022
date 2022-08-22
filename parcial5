@@ -1,0 +1,88 @@
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <style>
+  .mainmenubtn {
+       background-color: lightpink; 
+       color: white;
+       border: none; 
+       cursor: pointer; 
+       padding:20px;
+       margin-top:20px; 
+  }
+  
+  .dropdown {
+       position: relative;
+         display: inline-block;
+  }
+   '.dropdown-child {
+        display: none;  
+        background-color: blue; 
+        min-width: 200px;
+	   '#primero:hover .primero { display:none; }
+   '}' 
+   '.dropdown-child a {
+        color: skyblue; 
+        padding: 20px;  
+        text-decoration: none;
+        display: block;
+   '}' 
+   '.dropdown:hover .dropdown-child {'
+         display: block;'
+   '}'
+  ''
+   '#div2{'
+       '<!-- background-color: red; -->'
+        width: 40%;'
+        float: left;'
+        position: relative;'
+   '}'
+   '#div3{'
+        background-color: #00CED1;'
+        width: 40%;'
+        float: right;'
+        position: relative;'
+   '}'
+   ''
+   ''
+   ''
+   ''
+  </style>
+  </head>
+  <body>
+  
+  <DIV align="center">
+  <h1>UNIVERSIDAD MARIANO GÁLVEZ DE GUATEMALA </h1>
+  </DIV>
+  <div id="div2" >
+  <div class="dropdown">
+  <button class="mainmenubtn">Main Menu</button>
+  <ul class="dropdown-child">
+  <!-- <li><a mostrardiv1(); >Sub Menu 1</a></li> -->
+	  <li><a><button type="submit"	id="validate" onclick = "mostrardiv1();"><a href="#obj1">iconfig</a></button></a></li>
+	  <li><a><button type="submit" id="validate2" onclick = "mostrardiv2();"><a href="#obj2">neofetch</a></button></a></li> 
+	  <li><a><button type="submit" id="validate3" onclick = "mostrardiv3();"><a href="#obj3">dns</a></button></a></li>
+	   <li><a><button type="submit"	id="validate4" onclick = "mostrardiv1();"><a href="#obj4">w</a></button></a></li>
+	  <li><a><button type="submit" id="validate5" onclick = "mostrardiv2();"><a href="#obj5">gateway</a></button></a></li> 
+	  <li><a><button type="submit" id="validate6" onclick = "mostrardiv3();"><a href="#obj6">contenido de resolv.conf</a></button></a></li>
+	   <li><a><button type="submit"	id="validat7" onclick = "mostrardiv1();">df-h</button></a></li>
+	  <li><a><button type="submit" id="validate8" onclick = "mostrardiv2();">hostname</button></a></li> 
+	  <li><a><button type="submit" id="validate9" onclick = "mostrardiv3();">versión del kernel</button></a></li>
+   </ul> 
+  </div>
+  </div>
+  
+  <br/> <br/> <br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  
+  <a id="obj1">ifconfig </a>
+  
+  <a id="obj2">neofetch </a>
+ 
+	<a id="obj3">dns  </a>
+  <a id="obj4">w
+  </a>
+  <a id="obj5">gateway  </a>
+  <a id="obj6">resolv.conf  </a>
+ 
+  </body>
+  </html>
